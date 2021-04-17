@@ -1,0 +1,17 @@
+{
+  "command": [
+    {
+      "name": "set",
+      "actions": [
+        {
+          "name": "Set bot activity",
+          "category": "Bot Action",
+          "type": "Set Bot Activity",
+          "activityname": "}help",
+          "activitytype": "WATCHING",
+          "streamurl": ""
+        }
+      ]
+    }
+  ]
+}

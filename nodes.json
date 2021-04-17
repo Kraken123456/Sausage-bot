@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "type": "command",
+      "name": "set",
+      "guid": "27012951-c782-474f-a157-16716119f0f9",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "8d6dcaf5-e6f9-4ee2-aa7f-73eb0d8276ee"
+          ]
+        }
+      ],
+      "x": 196,
+      "y": 175
+    },
+    {
+      "type": "response",
+      "name": "Set bot activity",
+      "guid": "8d6dcaf5-e6f9-4ee2-aa7f-73eb0d8276ee",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "27012951-c782-474f-a157-16716119f0f9"
+        }
+      ],
+      "x": 395,
+      "y": 154,
+      "rtype": "Bot Action",
+      "rsubtype": "Set Bot Activity",
+      "formdata": [
+        "}help",
+        "WATCHING",
+        ""
+      ],
+      "formnames": [
+        "activityname",
+        "activitytype",
+        "streamurl"
+      ]
+    }
+  ]
+}
